@@ -70,9 +70,9 @@
 
 | Project | What it is | Stack |
 | :------ | :--------- | :---- |
-| **[Vautr](https://github.com/elcoosp/vautr)** | Zero-knowledge password manager — the server never sees your secrets | Rust · Axum · OPAQUE · Argon2id · React · Expo · Tauri |
+| **[Vautr](https://github.com/elcoosp/vautr)** | Zero-knowledge password manager — the server never sees your secrets | Rust · Axum · OPAQUE · Argon2id · React · Expo · GPUI |
 | **[Ataqu](https://github.com/elcoosp/ataqu)** | Suite of 10 SaaS apps for SMEs — CRM, HR, automations, documents | Rust · React · Vite · pnpm monorepo |
-| **[StackBluff](https://github.com/elcoosp/stackbluff)** | Multiplayer poker: tournaments, bots, anti-cheat, Stripe — playable MVP | Rust · WebSockets · React · Tailwind |
+| **[StackBluff](https://github.com/elcoosp/stackbluff)** | Multiplayer poker: tournaments, bots, anti-cheat, Stripe — playable MLP | Rust · WebSockets · React · Tailwind |
 | **[Lynxpo](https://github.com/elcoosp/lynxpo)** | Ported Expo's native-module system to ByteDance Lynx (codegen Java/ObjC) | Expo Modules · Lynx · iOS/Android |
 | **[Vantage](https://github.com/elcoosp/vantage)** | Multi-tenant merchant SaaS — Saga/Outbox, event-driven architecture | Java 21 · Spring Boot 3.4 · GraphQL · RabbitMQ |
 
