@@ -99,17 +99,6 @@ A product team where I can stay long-term, own features end-to-end, and keep shi
 
 ## ⚡ GitHub stats
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=elcoosp&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elcoosp&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=elcoosp&hide_border=true&theme=tokyonight" alt="GitHub streak"/>
-</div>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=elcoosp&style=flat-square&color=4F46E5" alt="Profile views"/>
-</p>
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=elcoosp&theme=github&animation=fade)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=elcoosp&theme=github&animation=fade)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=elcoosp&theme=github&animation=fade&utcOffset=0)
