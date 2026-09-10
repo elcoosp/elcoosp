@@ -101,4 +101,3 @@ A product team where I can stay long-term, own features end-to-end, and keep shi
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=elcoosp&theme=github&animation=fade)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=elcoosp&theme=github&animation=fade)
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=elcoosp&theme=github&animation=fade&utcOffset=0)
