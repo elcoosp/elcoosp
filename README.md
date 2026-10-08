@@ -55,7 +55,7 @@ Also: **[chameleon](https://github.com/elcoosp/chameleon)** — HUNL poker AI, m
 - **Spec before code** — flux carries 39 MADR ADRs plus a full wire-protocol & VM-ISA spec; kod ships SPEC, ARCHITECTURE and TESTING documents.
 - **Tests are the design review** — cargo-nextest, proptest, insta snapshots, criterion performance budgets (`parse < 5 ms`, `diff < 1 ms`, `VM eval < 2 ms`); ~4000 tests across kod's crates.
 - **CI like it's production** — clippy `-D warnings`, `#![forbid(unsafe_code)]` in every library crate, fuzzed wire protocol, mutation testing, parity harnesses.
-- **AI-augmented, engineer-owned** — I ship daily with Claude Code & MCP, and I built my own harness (kod) to keep the loop local, sandboxed and auditable.
+- **AI-augmented, engineer-owned** — I ship daily with AI & MCP, and I built my own harness (kod) to keep the loop local, sandboxed and auditable.
 
 ## ⚡ Currently
 
