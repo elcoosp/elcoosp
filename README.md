@@ -10,7 +10,7 @@
 <p align="center">
   <img alt="Rust" src="https://img.shields.io/badge/2_years_full--time_Rust%2C_100%25_in_public-000000?style=flat-square&logo=rust&logoColor=white"/>
   <img alt="Output" src="https://img.shields.io/badge/2_compilers_%C2%B7_7_products_in_public-4F46E5?style=flat-square"/>
-  <img alt="Contributions" src="https://img.shields.io/badge/13k%2B_contributions_last_year-0D9488?style=flat-square"/>
+  <img alt="Contributions" src="https://img.shields.io/badge/20k%2B_contributions_last_year-0D9488?style=flat-square"/>
   <img alt="TypeScript" src="https://img.shields.io/badge/8_years_production_TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
 </p>
 
@@ -32,7 +32,7 @@ let next = Role::rust().in_france(&["Nantes", "Paris", "remote"]);
 | | What it is | Receipts |
 |---|---|---|
 | **[flux](https://github.com/elcoosp/flux)** | Write-once UI language for native iOS & Android. Edit `.flux` source, hot-reload on-device in milliseconds as binary IR patches over WebSocket — release builds compile to real **SwiftUI** & **Jetpack Compose**. No webview, no JS bridge, no interpreter in prod. | 16 crates · ~63k LOC of Rust · 92 golden ISA vectors · 39 ADRs · 19 CI workflows incl. wire-protocol fuzzing & mutation testing |
-| **[kod](https://github.com/elcoosp/kod)** | Local-first AI coding-agent harness (TUI + CLI). Streaming agentic loop, multi-agent swarm, MCP & LSP clients, sandboxed shell, JSONL session audit with `kod replay`. Your code never leaves your machine. | 20 crates · ~356 tests · Landlock / bwrap / sandbox-exec |
+| **[kod](https://github.com/elcoosp/kod)** | Local-first AI coding-agent harness (TUI + CLI). Streaming agentic loop, multi-agent swarm, MCP & LSP clients, sandboxed shell, JSONL session audit with `kod replay`. Your code never leaves your machine. | 20 crates · ~4000 tests · Landlock / bwrap / sandbox-exec |
 | **[vautr](https://github.com/elcoosp/vautr)** | Zero-knowledge password manager: OPAQUE authentication + Argon2id, offline-first sync. The server never sees your secrets. | Rust core · React / Expo / GPUI clients · AGPL, self-hostable forever |
 | **[glyim](https://github.com/elcoosp/glyim)** | From-scratch compiler for a Rust-like systems language, written in Rust: lexing → HIR/MIR → type inference & trait solving → NLL borrow checking. | full pipeline, no rustc internals |
 | **[stackbluff](https://github.com/elcoosp/stackbluff)** | Multiplayer poker platform: sub-10ms Rust engine, AI coach, bots, anti-cheat, clubs & tournaments, Stripe billing. | built end-to-end by 5 parallel AI agents |
@@ -53,7 +53,7 @@ Also: **[chameleon](https://github.com/elcoosp/chameleon)** — HUNL poker AI, m
 ## 🧭 How I work
 
 - **Spec before code** — flux carries 39 MADR ADRs plus a full wire-protocol & VM-ISA spec; kod ships SPEC, ARCHITECTURE and TESTING documents.
-- **Tests are the design review** — cargo-nextest, proptest, insta snapshots, criterion performance budgets (`parse < 5 ms`, `diff < 1 ms`, `VM eval < 2 ms`); ~356 tests across kod's crates.
+- **Tests are the design review** — cargo-nextest, proptest, insta snapshots, criterion performance budgets (`parse < 5 ms`, `diff < 1 ms`, `VM eval < 2 ms`); ~4000 tests across kod's crates.
 - **CI like it's production** — clippy `-D warnings`, `#![forbid(unsafe_code)]` in every library crate, fuzzed wire protocol, mutation testing, parity harnesses.
 - **AI-augmented, engineer-owned** — I ship daily with Claude Code & MCP, and I built my own harness (kod) to keep the loop local, sandboxed and auditable.
 
