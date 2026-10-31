@@ -16,11 +16,11 @@
 
 **Rust engineer with a product-builder's track record.** Eight years shipping TypeScript to production — six of them at Weenat (agri-tech, 10k+ IoT sensors, live on the App Store & Google Play). Since 2024 I have bet on Rust full-time and built everything in public: complete systems with specs, ADRs, test suites and CI — not tutorials.
 
-> Recent output: a framework-agnostic full-stack meta-framework (`oxide`), a reactive abstraction layer (`quoin`), a server-side animation engine (`takumi-motion`), an end-to-end HUNL poker AI (`pkr-sota`), and massive ongoing work on `kod`, `glyim`, and `flux`.
+> Recent output: a framework-agnostic full-stack meta-framework (`oxide`), a reactive abstraction layer (`quoin`), an end-to-end HUNL poker AI (`pkr-sota`), and massive ongoing work on `kod`, `glyim`, and `flux`.
 
 ```rust
 // this profile, as code
-let shipped = vec!["flux", "kod", "vautr", "glyim", "stackbluff", "ataqu", "oxide", "quoin", "pkr-sota"];
+let shipped = vec!["flux", "kod", "vautr", "glyim", "stackbluff", "oxide", "quoin", "pkr-sota"];
 debug_assert!(shipped.iter().all(|p| is_public(p) && is_spec_driven(p) && is_tested(p)));
 
 let next = Role::rust().in_france(&["Nantes", "Paris", "remote"]);
@@ -36,12 +36,15 @@ let next = Role::rust().in_france(&["Nantes", "Paris", "remote"]);
 | **[kod](https://github.com/elcoosp/kod)** | Local-first AI coding-agent harness (TUI + CLI). Streaming agentic loop, multi-agent swarm, MCP & LSP clients, sandboxed shell, JSONL session audit. Your code never leaves your machine. | 20 crates · ~4000 tests · Landlock / bwrap / sandbox-exec · 1,300+ commits in Oct 2026 |
 | **[glyim](https://github.com/elcoosp/glyim)** | From-scratch compiler for a Rust-like systems language, written in Rust: lexing -> HIR/MIR -> type inference & trait solving -> NLL borrow checking. | Full pipeline, no rustc internals · 580+ commits in Oct 2026 |
 | **[pkr-sota](https://github.com/elcoosp/pkr-sota)** | End-to-end heads-up No-Limit Hold'em poker AI in Rust. Precompute, train, export, and query a CFR blueprint on a single machine with nanosecond lookup times. | Deterministic training · mmap blueprint loading · p50 ≈ 42ns queries · 460+ tests |
-| **[takumi-motion](https://github.com/elcoosp/takumi-motion)** | Deterministic server-side animation engine that renders React components or HTML to GIF, WebP, or APNG, powered by Rust. | React/Rust/TS integration · Server-side rendering · Created Oct 2026 |
 | **[vautr](https://github.com/elcoosp/vautr)** | Zero-knowledge password manager: OPAQUE authentication + Argon2id, offline-first sync. The server never sees your secrets. | Rust core · React / Expo / GPUI clients · AGPL, self-hostable forever |
 | **[flux](https://github.com/elcoosp/flux)** | Write-once UI language for native iOS & Android. Hot-reload on-device as binary IR patches over WebSocket — release builds compile to real SwiftUI & Jetpack Compose. | 16 crates · ~63k LOC of Rust · 92 golden ISA vectors · 39 ADRs |
-| **[cham-chipzen](https://github.com/elcoosp/cham-chipzen)** | Chipzen External-API poker bot driven by the CHAMELEON HUNL agent. End-to-end WebSocket protocol handling with shadow-state taint discipline. | Single-crate Rust · Trivial fallback policy · Strict protocol compliance |
 | **[stackbluff](https://github.com/elcoosp/stackbluff)** | Multiplayer poker platform: sub-10ms Rust engine, AI coach, bots, anti-cheat, clubs & tournaments, Stripe billing. | Built end-to-end by 5 parallel AI agents |
-| **[ataqu](https://github.com/elcoosp/ataqu)** | 10 natively-integrated business apps (CRM, Chat, HR, Docs, SSO, Analytics) on a single Rust + PostgreSQL core. | Monorepo · Next.js front-end |
+
+## TypeScript & Full-Stack Work
+
+| Repository | What it is | Receipts |
+|---|---|---|
+| **[takumi-motion](https://github.com/elcoosp/takumi-motion)** | Deterministic server-side animation engine that renders React components or HTML to GIF, WebP, or APNG. | TypeScript/React integration · Server-side rendering pipeline · Created Oct 2026 |
 
 ## Production Track Record (Pre-Rust)
 
