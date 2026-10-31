@@ -50,8 +50,6 @@ let next = Role::rust().in_france(&["Nantes", "Paris", "remote"]);
   - Led the React Native/JS -> Expo/TypeScript migration across mobile & web
   - Built the IoT alert microservice (Node.js, AWS SQS)
   - Shipped a back-office letting marketing manage 5 languages with zero dev tickets
-- **[lynxpo](https://github.com/elcoosp/lynxpo)** — 66 Expo-style native modules (Camera, SQLite, SecureStore) reimplemented for ByteDance Lynx with Kotlin + Swift twins, one pnpm workspace, live playground
-- **[vantage](https://github.com/elcoosp/vantage)** — multi-tenant merchant SaaS in Java 21 / Spring Boot 3.4: Saga/Outbox, event-driven, GraphQL, RabbitMQ
 
 ## How I Work
 
@@ -62,11 +60,12 @@ let next = Role::rust().in_france(&["Nantes", "Paris", "remote"]);
 
 ## Currently (October 2026)
 
-- **oxide**: Expanding the framework-agnostic meta-framework, refining the ODF wire format and 3-tier caching system.
-- **quoin**: Polishing the unified reactive API and Tailwind class transpilation for cross-framework UI definitions.
-- **kod**: Work-stealing swarm dispatch and remote-daemon attach.
-- **glyim**: Advancing the from-scratch compiler pipeline and NLL borrow checking.
-- **pkr-sota**: K=7 action abstraction re-baseline and river-only bounded search refinements.
+- **oxide**: Fixing website routing/CSS injection across render paths, refining the CLI/router scanner, and expanding documentation (local dev, CI, release, security) while enforcing workspace-wide build checks.
+- **quoin**: Implementing proper `JoinHandle` abort/detach semantics and fixing `request_update` recursion across all framework adapters (GPUI, Leptos, Dioxus, Xilem, Floem). Bounding cancellation waker registries to prevent memory leaks.
+- **kod**: Refactoring `tools.rs` by extracting shared helpers (`atomic_write`, `kill_child_tree`) to enable parallel tool splits. Closed v0.1.27 audit sweep with memory obfuscation fixes and documented the main-loop split proposal.
+- **glyim**: Fixing signed wrapping arithmetic and literal receiver method resolution. Investigating a critical LLVM backend miscompile where `checked_*` operations on signed integers incorrectly used unsigned intrinsics, requiring a coordinated fix across typeck, interp, and LLVM backends.
+- **pkr-sota**: Shipped K=7 action abstraction, but documented a +261 mbb regression in run 1 ("DO NOT SHIP"). Measured Phase 5 infeasibility at current resolution (time bottleneck) and corrected audit claims about memory size (UndoRecord is the dominant cost). Fixed parallel test temp-file races.
+- **flux**: Expanding ISA vector coverage for uncovered opcodes (`remove_item_basic`, `clear_basic`), fixing `BOOL_EQ` operand lengths, and ensuring `content_address` gracefully handles dangling child references without panicking.
 
 ## Open To
 
