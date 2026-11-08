@@ -61,8 +61,8 @@ Repositories created between **Nov 3–7, 2026**, per the public activity feed:
 
 **Compilers & parsing** — `ligature` · `zsx` · `syntact`
 **GUI & native UI** — `alacer` · `aeolus` · `guiwright`
-**Systems & tooling** — `magnetite` · `wraith` · `upd`
-**Other** — `catheo` · `tuvix` · `peregrine` · `leptos-shadcn-ui`
+**Systems & tooling** — `magnetite` · `wraith`
+**Other** — `catheo` · `tuvix` · `peregrine`
 
 All public and active as of **Nov 8, 2026**.
 
