@@ -11,8 +11,8 @@
   <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
   <img alt="Zig" src="https://img.shields.io/badge/Zig-F7A41D?style=flat-square&logo=zig&logoColor=black"/>
-  <img alt="Contributions" src="https://img.shields.io/badge/34,280_contributions_in_the_last_year-0D9488?style=flat-square"/>
-  <img alt="Repos" src="https://img.shields.io/badge/15_new_repositories_Nov_2026-4F46E5?style=flat-square"/>
+  <img alt="Contributions" src="https://img.shields.io/badge/Contributions-34,280_in_the_last_year-0D9488?style=flat-square"/>
+  <img alt="Repos" src="https://img.shields.io/badge/Repos-15_new_in_November_2026-4F46E5?style=flat-square"/>
 </p>
 
 **Rust engineer with a product-builder's track record.** Eight years shipping TypeScript to production — six of them at Weenat (agri-tech, 10k+ IoT sensors, live on the App Store & Google Play). Since 2024 I have bet on Rust full-time and built everything in public: complete systems with specs, ADRs, test suites and CI — not tutorials.
