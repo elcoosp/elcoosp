@@ -62,9 +62,11 @@ Repositories created between **Nov 3–7, 2026**, per the public activity feed:
 **Compilers & parsing** — `ligature` · `zsx` · `syntact`
 **GUI & native UI** — `alacer` · `aeolus` · `guiwright`
 **Systems & tooling** — `magnetite` · `wraith` · `upd`
-**Other** — `starlight` · `catheo` · `tuvix` · `peregrine` · `gpui-rsx` · `leptos-shadcn-ui`
+**Other** — `catheo` · `tuvix` · `peregrine` · `leptos-shadcn-ui`
 
 All public and active as of **Nov 8, 2026**.
+
+_Forked, not original:_ `starlight` (upstream: `withastro/starlight`) · `gpui-rsx` (upstream: `wsafight/gpui-rsx`).
 
 ---
 
