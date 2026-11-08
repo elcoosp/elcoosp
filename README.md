@@ -66,8 +66,6 @@ Repositories created between **Nov 3–7, 2026**, per the public activity feed:
 
 All public and active as of **Nov 8, 2026**.
 
-_Forked, not original:_ `starlight` (upstream: `withastro/starlight`) · `gpui-rsx` (upstream: `wsafight/gpui-rsx`).
-
 ---
 
 ## How I Work
